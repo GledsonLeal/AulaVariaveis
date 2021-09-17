@@ -1,3 +1,3 @@
 olá!
 
-Este projeto ensina a usuar o guit
+Essa aula é sobre as variáveis em JavaScript
