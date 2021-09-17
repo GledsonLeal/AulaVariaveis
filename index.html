@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programação para Web I</title>
+</head>
+<body>
+    <script>
+        // AULA SOBRE VARIÁVEL
+        var nome = 'Gledson Leal'
+        console.log(nome) // string
+        
+        var idade = 36
+        console.log(idade)
+
+        var total = idade + 10
+        console.log(total)
+
+        // strings
+        var nome = 'Vamos programar'
+        console.log(nome)
+        console.log(nome.length)//conta a quantidade de caracteres da variável
+
+        console.log('programar'.length)//a string não precisa estar em uma variável
+
+        console.log(nome.toUpperCase())// a string vai ser convertida em maiúscula
+        
+        console.log(nome.toLowerCase())// a string vai ser convertida em minúscula
+
+        console.log(nome.indexOf('pro'))// vai procurar, na variável, a string passada por parâmetro. Se não encontrar, resulta em -1. Se encontrar, printa a posição
+        
+        console.log(nome.replace('programar', 'estudar'))// procura dentro da variável uma string. Se encontrar, subistitui pela string informada
+
+        console.log(nome.slice(6, 14))// retorna a string no intervalo informado
+
+        var nome1 = '   Gledson Leal    '
+        console.log(nome1)
+        console.log(nome1.trim())// retira os espaços da direita e da esquerda
+
+        var PrimeiroNome = 'Gledson'
+        var SegundoNome = 'Leite'
+        var TerceiroNome = 'Leal'
+        console.log('Meu nome completo é: ' + PrimeiroNome+ ' ' + SegundoNome+ ' ' + TerceiroNome)// concatenando strings
+        
+        console.log(`Meu nome completo é: ${PrimeiroNome} ${SegundoNome} ${TerceiroNome}` )//evolução da linguagem
+    </script>
+</body>
+</html>
